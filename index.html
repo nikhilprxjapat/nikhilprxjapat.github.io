@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<title>Annapurna Bhakti Bhandar</title>
+<meta name="description" content="Premium spiritual eCommerce store — Rudraksha, Mahakal Kada, gemstone bracelets & sacred products, blessed at Ujjain." />
+
+<!-- Tailwind CSS (CDN) -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: { cream: "#FDFAF4" },
+        fontFamily: {
+          sans: ["Poppins", "Segoe UI", "sans-serif"],
+          serif: ["Georgia", "Times New Roman", "serif"],
+        },
+      },
+    },
+  };
+</script>
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Swiper.js -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- AOS Animation Library -->
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-stone-200 font-sans">
+
+  <!-- App shell: fixed mobile-first max-width container -->
+  <div class="w-full min-h-screen flex items-center justify-center bg-stone-200">
+    <div class="w-full max-w-md min-h-screen bg-cream relative overflow-hidden shadow-2xl" id="app-root">
+      <!-- Rendered dynamically by js/app.js -->
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" class="fixed bottom-28 left-1/2 -translate-x-1/2 bg-stone-900 text-amber-300 text-[12.5px] font-semibold px-4 py-2.5 rounded-full shadow-lg z-50 opacity-0 translate-y-4 transition-all duration-300 pointer-events-none">
+    Added to cart
+  </div>
+
+  <!-- Data & Modular JS -->
+  <script src="js/data.js"></script>
+  <script src="js/state.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/screens.js"></script>
+  <script src="js/screens2.js"></script>
+  <script src="js/screens3.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
